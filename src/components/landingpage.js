@@ -14,18 +14,24 @@ class LandingPage extends Component {
             />
 
             <div className="banner-text">
-              <h1> Full Stack Web Developer </h1>
+              <h1> Full Stack Developer </h1>
 
               <hr/>
 
-              <p> JavaScript | React | NodeJS | Java | C++ | C | HTML/CSS </p>
+              <p> Java | JavaScript | NodeJS | Android | HTML/CSS </p>
 
               <div className="social-links">
+              {/* LinkedIn */}
                 <a href="https://www.linkedin.com/in/sfoust1/" rel="noopener noreferrer" target="_blank">
-                  <img
-                    src="https://fontawesome.com/icons/linkedin?style=brands"
-                    alt="linkedIn"
-                  />
+                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                </a>
+              {/* Github */}
+                <a href="https://github.com/sfoust1" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-github" aria-hidden="true"/>
+                </a>
+              {/* Youtube */}
+                <a href="https://www.youtube.com/channel/UCcO_3AN_uGsrga3JMtwHp3A" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-youtube" aria-hidden="true"/>
                 </a>
               </div>
             </div>

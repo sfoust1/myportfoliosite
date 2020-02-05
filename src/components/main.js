@@ -4,7 +4,6 @@ import { Switch, Route } from 'react-router-dom';
 import LandingPage from './landingpage';
 import About from './aboutme';
 import Contacts from './contact';
-import Resume from './resume';
 import Projects from './projects';
 
 const Main = () => (
@@ -12,7 +11,6 @@ const Main = () => (
     <Route exact path="/" component={LandingPage} />
     <Route path="/aboutme" component={About} />
     <Route path="/contact" component={Contacts} />
-    <Route path="/resume" component={Resume} />
     <Route path="/projects" component={Projects} />
   </Switch>
 );
