@@ -67,7 +67,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored href='https://github.com/sfoust1/myportfoliosite'>GitHub</Button>
-              <Button colored>YouTube</Button>
             </CardActions>
             <CardMenu style ={{color: '#fff'}}>
               <IconButton name= 'share' />
